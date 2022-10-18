@@ -1,0 +1,228 @@
+#header {
+  align-items: center;
+  display: flex;
+  //justify-content: space-between;
+  border-bottom: 1px solid $cmu-gray;
+  margin-bottom: 0.5em;
+  padding: 10px 0;
+
+  #wordmark {
+    display: flex;
+    align-items: center;
+    flex: initial;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: bold;
+    white-space: nowrap;
+
+    span {
+      display: inline-block;
+      margin-right: 0.15em;
+      opacity: 0;
+      max-width: 0;
+      transition: max-width 1s ease-in-out, opacity 1s ease-in-out;
+    }
+
+    span.visible {
+      max-width: 100%;
+      opacity: 1;
+    }
+  }
+
+  @include for-md-down {
+    padding-bottom: 0.5em;
+    font-size: smaller;
+  }
+
+  a {
+    color: #333;
+    &:hover {
+      color: $primary-red;
+    }
+  }
+
+  /* Toggle menu icon */
+  .links {
+    //display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    flex: auto;
+
+    @include for-md-up {
+      .nav {
+        max-height: none !important;
+        top: 0 !important;
+        position: relative !important;
+        float: right !important;
+        width: fit-content !important;
+        filter: none !important;
+        background-color: transparent !important;
+      }
+      .menu {
+        margin-top: 0px !important;
+        a {
+          float: left;
+          padding: 5px 0px 5px 20px;
+        }
+      }
+      .hamb {
+        display: none;
+      }
+    }
+
+    /* Menu Icon */
+    .hamb {
+      cursor: pointer;
+      z-index: 999;
+      float: right;
+      padding: 5px 20px;
+
+      .hamb-line {
+        background: black;
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 24px;
+        &::before,
+        &::after {
+          background: black;
+          content: "";
+          display: block;
+          height: 100%;
+          position: absolute;
+          transition: all 0.2s ease-out;
+          width: 100%;
+        }
+        &::before {
+          top: 5px;
+        }
+        &::after {
+          top: -5px;
+        }
+      }
+    }
+
+    .side-menu {
+      display: none;
+      &:checked {
+        ~ nav {
+          max-height: 100%;
+        }
+
+        ~ .hamb .hamb-line {
+          background: transparent;
+          z-index: 9999;
+          &::before {
+            transform: rotate(-45deg);
+            top: 0;
+          }
+          &::after {
+            transform: rotate(45deg);
+            top: 0;
+          }
+        }
+      }
+    } /* Hide checkbox */
+
+    .nav {
+      width: 100%;
+      //height: 100%;
+      top: 0px;
+      z-index: 99;
+      position: fixed;
+      background-color: $grey100;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.2s ease-out;
+      filter: drop-shadow(5px 5px 10px grey);
+      .menu {
+        margin: 30px 0;
+        a {
+          display: block;
+          padding: 5px 20px;
+          //color: white;
+          list-style: none;
+
+          &:hover {
+            color: white !important;
+            text-decoration: none;
+            background-color: $primary-red;
+          }
+        }
+      }
+    }
+
+    a {
+      &.lab {
+        color: $primary-red;
+        font-weight: 500;
+        &.selected {
+          color: $primary-red !important;
+        }
+      }
+      &.selected {
+        font-weight: 800 !important;
+        color: #000;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      .external {
+        display: flex;
+        svg {
+          height: 18px;
+          margin-left: 10px;
+        }
+
+        &:hover svg {
+          //fill: $csail-orange;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  div {
+    //background-color: $grey300;
+    padding: 20px 0;
+    text-align: center;
+    display: table;
+    white-space: nowrap;
+    text-align: center;
+    background: transparent;
+    //color: rgba(0, 0, 0, 0.85);
+    font-size: 16px;
+    margin: auto;
+    color: $grey600;
+    span {
+      padding: 10px;
+    }
+    &::before,
+    &::after {
+      content: "";
+      display: table-cell;
+      position: relative;
+      top: 50%;
+
+      border-top: 1px solid $grey400;
+      -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    &::before {
+      width: 5%;
+    }
+    &::after {
+      width: 5%;
+    }
+  }
+}

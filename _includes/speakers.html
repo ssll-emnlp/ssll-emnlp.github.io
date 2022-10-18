@@ -1,0 +1,17 @@
+<div id="speakers" class="pure-u-1 content">
+  <h2>Invited Speakers</h2>
+  <div class="speakers pure-g">
+    {% for speaker in site.data.speakers %}
+    <div id="speaker-{{speaker[0]}}" class="pure-u-1 speaker">
+      <div><img src="{{speaker[1].avatar}}" /></div>
+      <div class="info">
+        <div>
+          <span class="highlight">{{speaker[1].speaker_name}}</span>
+          ({{speaker[1].affiliation}})
+        </div>
+        <p>{{speaker[1].desc}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

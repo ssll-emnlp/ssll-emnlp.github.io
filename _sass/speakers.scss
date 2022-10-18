@@ -1,0 +1,33 @@
+.speakers {
+  .speaker {
+    padding-bottom: 15px;
+    img {
+      object-fit: cover;
+      border-radius: 50%;
+      width: #{"min(15vw, 100px)"};
+      height: #{"min(15vw, 100px)"};
+      @include for-md-down {
+        display: none;
+      }
+    }
+    div {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 15px;
+      //font-weight: bolder;
+      //color: $primary-red;
+    }
+    .info {
+      > div {
+        display: block;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      .desc {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

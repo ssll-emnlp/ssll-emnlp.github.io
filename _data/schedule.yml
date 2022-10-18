@@ -1,0 +1,92 @@
+- schedules:
+    - topic: welcome
+      start_time: "08:50"
+      end_time: "09:00"
+      type: remark
+- session: Research Stories
+  schedules:
+    - speaker: speaker 1
+      type: talk
+      speaker_key: speaker1
+      topic: dataset
+      start_time: "09:00"
+      end_time: "09:20"
+    - speaker: speaker 2
+      type: talk
+      speaker_key: speaker2
+      topic: big model
+      start_time: "09:20"
+      end_time: "09:40"
+    - speaker: speaker 3
+      type: talk
+      speaker_key: speaker3
+      topic: creative NLP research
+      start_time: "09:40"
+      end_time: "10:00"
+    - topic: Coffee Break
+      type: break
+      start_time: "10:00"
+      end_time: "10:30"
+    - topic: "Panel with the 3 Speakers (Moderator: )"
+      start_time: "10:30"
+      end_time: "11:00"
+- session: "Growth & Connection"
+  schedules:
+    - speaker: speaker 1
+      type: talk
+      speaker_key: speaker1
+      topic: student
+      start_time: "11:00"
+      end_time: "11:20"
+    - speaker: speaker 2
+      type: talk
+      speaker_key: speaker2
+      topic: less represented work
+      start_time: "11:20"
+      end_time: "11:40"
+    - speaker: speaker 3
+      type: talk
+      speaker_key: speaker3
+      topic: advertisement
+      start_time: "11:40"
+      end_time: "12:00"
+    - topic: "Networking/Mentoring (Lunch Provided)"
+      type: break
+      start_time: "12:00"
+      end_time: "13:30"
+    - topic: "Panel with the 3 Speakers (Moderator: )"
+      start_time: "13:30"
+      end_time: "14:00"
+- session: Career Trajectory
+  schedules:
+    - speaker: speaker 1
+      type: talk
+      speaker_key: speaker1
+      topic: industry vs. academia
+      start_time: "14:00"
+      end_time: "14:20"
+    - speaker: speaker 2
+      type: talk
+      speaker_key: speaker2
+      topic: startup
+      start_time: "14:20"
+      end_time: "14:40"
+    - speaker: speaker 3
+      type: talk
+      speaker_key: speaker3
+      topic: interdisciplinary field
+      start_time: "14:40"
+      end_time: "15:00"
+    - topic: Coffee Break
+      type: break
+      start_time: "15:00"
+      end_time: "15:30"
+    - topic: "Panel with the 3 Speakers (Moderator: )"
+      start_time: "15:30"
+      end_time: "16:00"
+- session: ""
+  schedules:
+    - topic: Closing remark
+      start_time: "16:00"
+      end_time: "16:30"
+      type: remark

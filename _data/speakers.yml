@@ -1,0 +1,37 @@
+mpeters:
+  speaker_name: Matthew Peters
+  affiliation: Allen Institute for Artificial Intelligence
+  twitter: https://twitter.com/mattthemathman
+  avatar: assets/people/mpeters.png
+  desc: "this is description"
+
+mfaruqui:
+  speaker_name: Manaal Faruqui
+  affiliation: Google
+  url: https://www.manaalfaruqui.com/
+  avatar: assets/people/mfaruqui.png
+  desc: "this is description"
+
+estrubell:
+  speaker_name: Emma Strubell
+  affiliation: Carnegie Mellon University
+  url: https://strubell.github.io/
+  twitter: https://twitter.com/strubell
+  avatar: assets/people/estrubell.png
+  desc: "this is description"
+
+dbamman:
+  speaker_name: David Bamman
+  affiliation: UC Berkeley
+  url: https://people.ischool.berkeley.edu/~dbamman/
+  twitter: https://twitter.com/dbamman
+  avatar: assets/people/dbamman.png
+  desc: "this is description"
+
+djurgen:
+  speaker_name: David Jurgens
+  affiliation: University of Michigan
+  url: https://jurgens.people.si.umich.edu/
+  twitter: https://twitter.com/david__jurgens
+  avatar: assets/people/djurgen.png
+  desc: "this is description"

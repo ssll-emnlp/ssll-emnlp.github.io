@@ -1,0 +1,113 @@
+.organizers {
+  //max-width: 1200px;
+  //margin: -10px auto !important;
+  //margin: 10px 0px;
+  overflow: hidden;
+  //width: 100vw;
+  //width: 1200px; //max(100vw - 50px, $max-width);
+  //padding: 0 20px;
+  text-align: left;
+  background-color: transparent;
+  h2 {
+    color: $primary-grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0.25em;
+  }
+
+  .organizer {
+    //display: inline-flex;
+    position: relative;
+    cursor: pointer;
+    .inner {
+      width: calc(100% - 20px);
+      //text-align: center;
+      margin: 5px auto;
+      //border-radius: 10px;
+      //border: solid 1px $grey600;
+      overflow: hidden;
+      position: inherit;
+      &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: (10 / 15) * 100%;
+        @include for-sm-down {
+          padding-top: 0.5 * 100%;
+        }
+      }
+
+      .preview {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        img {
+          object-fit: cover;
+          border-radius: 50%;
+          //width: 100%; /* This if for the object-fit */
+          height: calc(100% - 80px); /* This if for the object-fit */
+          object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+          object-position: center;
+        }
+      }
+
+      &:hover {
+        .text {
+          background: rgba($grey100, 0.8);
+          min-height: 100%;
+          .name {
+            padding: 10px 0;
+          }
+          .desc {
+            display: block;
+
+            //height: auto;
+          }
+        }
+      }
+
+      .text {
+        @include for-sm-down {
+          background: rgba($grey50, 0.9);
+          min-height: 100%;
+          .desc {
+            display: block !important;
+            font-size: smaller;
+            //height: auto;
+          }
+        }
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 0em;
+        width: 100%;
+        line-height: 1.1;
+        align-items: center;
+        //padding-bottom: 0.5em;
+        background: transparent;
+        transition: min-height 0.2s ease-out;
+        min-height: 0;
+        padding: 5px 5px;
+
+        .desc {
+          width: 100%;
+          display: none;
+          font-size: 0.9em;
+          color: $grey800;
+          //height: 0px;
+          padding: 0 0px;
+          line-height: 1.1;
+          strong {
+            font-family: $code-font;
+            font-style: italic;
+            color: $wine-red;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

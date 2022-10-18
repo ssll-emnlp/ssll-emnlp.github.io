@@ -1,0 +1,26 @@
+.schedules {
+  .schedule {
+    padding-bottom: 15px;
+    padding-left: 30px;
+
+    div {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 15px;
+      //font-weight: bolder;
+      //color: $primary-red;
+    }
+    .info {
+      > div {
+        display: block;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      .desc {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %} {% if page.title == 'Publications' %}
+    <script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.7.2/dist/flexsearch.compact.js"></script>
+    <script type="text/javascript">
+      {% include pubsearch.js %}
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    <div class="pure-g">
+      <div class="pure-u-1 content">{% include header.html %}</div>
+      {{content}}
+    </div>
+  </body>
+  {% include footer.html %}
+</html>

@@ -1,0 +1,34 @@
+<div id="header" class="pure-u-1">
+  <h3><a id="wordmark" href="{{'/index.html' | relative_url }}">{{site.data.about.short_title}} {{site.data.about.year}}</a></h3>
+
+  <div class="links">
+    <input class="side-menu" type="checkbox" id="side-menu" />
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <nav class="nav">
+      <div class="menu">
+        <a href="{{'/index.html' | relative_url }}" {% if page.home %}class="selected"{% endif %}>About</a>
+        <a href="{{'/schedule.html' | relative_url }}" {% if page.title == "Schedule" %}class="selected"{% endif %}>Schedule</a>
+
+         <a onclick="location.reload();" href="{{'/schedule.html#speakers' | relative_url }}">Speakers</a>
+
+      </div>
+    </nav>
+    <!--
+     <a href="{{'/assets/Sherry_Wu_CV.pdf' | relative_url }}">CV</a>
+        <a href="{{'/publications.html' | relative_url }}" {% if page.publications or page.collection == 'pubs' or page.title == 'Publications' %}class="selected"{% endif %}>Publications</a>
+        
+      <div id="links">
+        <span>
+          <a href="/" {% if page.home %}class="selected"{% endif %}>About</a>
+          &middot;
+          <a href="/publications" {% if page.collection == 'pubs' or page.title == 'Publications' %}class="selected"{% endif %}>Publications</a>
+          &middot;
+          <a href="/mentoring" {% if page.mentor %}class="selected"{% endif %}>Teaching & Mentoring</a>
+          &middot;
+          <a href="/misc" {% if page.mentor %}class="selected"{% endif %}>Teaching & Mentoring</a>
+          &middot;
+        </span>
+      </div>
+      -->
+  </div>
+</div>

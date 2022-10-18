@@ -1,0 +1,27 @@
+<div class="pure-u-1 content">
+  <h2>Schedule</h2>
+  <p>
+    The time is in {{site.data.about.location}} timezone:
+    {{site.data.about.timezone}}
+  </p>
+  <div class="schedules pure-g">
+    {% for session in site.data.schedule %}
+    <div class="pure-u-1 session">
+      {%if session.session %}
+      <div class="header">{{session.session}}</div>
+      {% endif %} {% for schedule in session.schedules %}
+      <div class="pure-u-1 schedule">
+        <div class="time">
+          {{schedule.start_time | date: ' %R'}} -- {{schedule.end_time | date: '
+          %R'}}
+        </div>
+        <div class="desc">
+          <span class="">{{schedule.topic}}</span>
+          <small>{{schedule.speaker}}</small>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

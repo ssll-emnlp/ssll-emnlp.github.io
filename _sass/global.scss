@@ -1,0 +1,104 @@
+.highlight {
+  color: $primary-red;
+  font-weight: bold;
+  font-style: normal;
+}
+.header {
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bold;
+  color: $primary-red;
+}
+.white-background {
+  background-color: $white;
+  width: 100%;
+}
+
+a {
+  color: $cmu-dark-gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: $primary-red;
+  text-decoration: underline;
+}
+
+.content {
+  margin: 10px auto;
+  padding: 0 20px;
+  max-width: calc(max(1000px, 51%));
+  text-align: left;
+  &.wide {
+    max-width: 1200px;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+h2 {
+  font-family: $heading-font;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.banner {
+  padding: 5px 10px;
+  //border: 1px solid #e8e8e8;
+  width: 100%;
+  .header {
+    font-weight: bold;
+    //border-bottom: 1px solid #e8e8e8;
+    padding: 10px 5px;
+  }
+}
+
+.tooltip {
+  //background-color: #ffaffc;
+  //border-radius: 10px;
+  //padding: 10px 15px;
+  position: relative;
+  //margin: 15px;
+  //text-align: center;
+  &::before {
+    background-color: #333;
+    content: " ";
+    display: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    z-index: 999;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, calc(-100% - 5px)) rotate(45deg);
+  }
+  &::after {
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.85em;
+    font-weight: 100;
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    content: attr(content);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, calc(-100% - 10px));
+  }
+
+  &:hover {
+    &::after {
+      display: block;
+    }
+    &::before {
+      display: block;
+    }
+  }
+}

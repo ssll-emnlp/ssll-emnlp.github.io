@@ -1,0 +1,19 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "fonts.scss";
+@import "colors.scss";
+@import "global.scss";
+
+@import "pure.scss";
+@import "scaffold.scss";
+@import "header.scss";
+//@import "people.scss";
+//@import "news.scss";
+
+@import "about.scss";
+@import "organizers.scss";
+@import "speakers.scss";
+@import "schedule.scss";

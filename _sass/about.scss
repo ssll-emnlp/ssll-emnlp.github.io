@@ -1,0 +1,36 @@
+//display: flex;
+//justify-content: space-between;
+//width: $screen-width;
+.about {
+  .icon {
+    color: $grey600;
+    padding-right: 10px;
+  }
+
+  .teaser {
+    align-items: center;
+    padding: 0 20px;
+    img {
+      object-fit: cover;
+      //width: 100%; /* This if for the object-fit */
+      width: #{"min(30vw, 200px)"};
+      object-position: center;
+    }
+    .highlight {
+      font-size: 1.4rem;
+    }
+
+    div {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 15px;
+    }
+  }
+
+  .info {
+    text-align: right;
+    @include for-sm-down {
+      font-size: smaller;
+    }
+  }
+}
