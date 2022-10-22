@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   //justify-content: space-between;
-  border-bottom: 1px solid $cmu-gray;
+  border-bottom: 1px solid $grey500;
   margin-bottom: 0.5em;
   padding: 10px 0;
 
@@ -43,7 +43,7 @@
   a {
     color: #333;
     &:hover {
-      color: $primary-red;
+      color: $primary-color;
     }
   }
 
@@ -152,7 +152,7 @@
           &:hover {
             color: white !important;
             text-decoration: none;
-            background-color: $primary-red;
+            background-color: $primary-color;
           }
         }
       }
@@ -160,10 +160,10 @@
 
     a {
       &.lab {
-        color: $primary-red;
+        color: $primary-color;
         font-weight: 500;
         &.selected {
-          color: $primary-red !important;
+          color: $primary-color !important;
         }
       }
       &.selected {

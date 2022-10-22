@@ -24,3 +24,10 @@ bundle install
 ```sh
 bundle exec jekyll serve -i
 ```
+
+## Publish
+
+```sh
+chmod +x publish.sh
+./publish.sh
+```

@@ -9,11 +9,11 @@
 
   .teaser {
     align-items: center;
-    padding: 0 20px;
+    //padding: 0 20px;
     img {
       object-fit: cover;
       //width: 100%; /* This if for the object-fit */
-      width: #{"min(30vw, 200px)"};
+      width: #{"min(100%, 200px)"};
       object-position: center;
     }
     .highlight {
@@ -23,7 +23,7 @@
     div {
       display: inline-block;
       vertical-align: middle;
-      margin-right: 15px;
+      //margin-right: 15px;
     }
   }
 

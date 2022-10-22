@@ -1,7 +1,7 @@
 <div class="pure-u-1 content about">
   <div class="teaser pure-g">
-    <div><img src="{{site.data.about.logo}}" /></div>
-    <div>
+    <div class="pure-u-sm-1-4"><img src="{{site.data.about.logo}}" /></div>
+    <div class="pure-u-sm-3-4">
       Welcome to
       <br />
       <span class="highlight"
@@ -11,6 +11,7 @@
       <br />
       {% if site.data.about.contacts.email %}
       <span class="block">
+        Contact us at
         <i class="icon fa-solid fa-envelope"></i>
         <a href="mailto:{{site.data.about.contacts.email}}"
           >{{site.data.about.contacts.email}}</a

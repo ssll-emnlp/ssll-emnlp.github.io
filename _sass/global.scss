@@ -1,5 +1,5 @@
 .highlight {
-  color: $primary-red;
+  color: $primary-color;
   font-weight: bold;
   font-style: normal;
 }
@@ -7,21 +7,28 @@
   text-transform: uppercase;
   font-size: smaller;
   font-weight: bold;
-  color: $primary-red;
+  color: $primary-color;
 }
+
+hr.solid {
+  border-top: 1px solid white;
+  //width: 100%;
+  //padding: 10px;
+}
+
 .white-background {
   background-color: $white;
   width: 100%;
 }
 
 a {
-  color: $cmu-dark-gray;
+  color: $primary-color;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: $primary-red;
+  color: $primary-color;
   text-decoration: underline;
 }
 

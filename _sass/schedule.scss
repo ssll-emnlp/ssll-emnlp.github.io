@@ -1,6 +1,6 @@
 .schedules {
   .schedule {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     padding-left: 30px;
 
     div {
@@ -8,7 +8,30 @@
       vertical-align: middle;
       margin-right: 15px;
       //font-weight: bolder;
-      //color: $primary-red;
+      //color: $primary-color;
+    }
+    .time {
+      font-family: $code-font;
+      color: $grey700;
+    }
+    .topic {
+      font-weight: bolder;
+    }
+    .speaker,
+    .moderator {
+      font-style: italic;
+    }
+    &.type-remark {
+      background-color: $blue50;
+    }
+    &.type-talk {
+      background-color: white;
+    }
+    &.type-break {
+      background-color: $yellow50;
+    }
+    &.type-panel {
+      background-color: $green50;
     }
     .info {
       > div {

@@ -6,18 +6,32 @@
   </p>
   <div class="schedules pure-g">
     {% for session in site.data.schedule %}
+    <hr class="solid" />
     <div class="pure-u-1 session">
       {%if session.session %}
       <div class="header">{{session.session}}</div>
       {% endif %} {% for schedule in session.schedules %}
-      <div class="pure-u-1 schedule">
+      <div class="pure-u-1 schedule type-{{schedule.type}}">
         <div class="time">
           {{schedule.start_time | date: ' %R'}} -- {{schedule.end_time | date: '
           %R'}}
         </div>
         <div class="desc">
-          <span class="">{{schedule.topic}}</span>
-          <small>{{schedule.speaker}}</small>
+          {% if schedule.topic %}
+          <span class="topic">{{schedule.topic}}</span>
+          {% endif %} {% if schedule.speaker_key %}
+          <span class="speaker"
+            >Speaker: {% if site.data.speakers[schedule.speaker_key] %} {%
+            assign speaker = site.data.speakers[schedule.speaker_key] %}
+
+            <a href="#speaker-{{schedule.speaker_key}}">
+              {{speaker.speaker_name}}
+            </a>
+            {% else %} {{schedule.speaker_key}} {% endif %}
+          </span>
+          {% endif %} {{schedule.title}} {% if schedule.moderator %}
+          <span class="moderator">Moderator: {{schedule.moderator}}</span>
+          {% endif %}
         </div>
       </div>
       {% endfor %}

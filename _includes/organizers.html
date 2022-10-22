@@ -3,29 +3,31 @@
   <div class="organizers pure-g">
     {% for organizer in site.data.organizers %}
     <div
-      id="organizer-{{organizer.first_name}}"
+      id="organizer-{{organizer[0]}}"
       class="pure-u-md-1-3 pure-u-1 organizer"
     >
       <div class="inner">
         <div class="preview">
-          <img src="{{organizer.avatar | relative_url}}" />
-          <div class="name">
-            <strong>{{organizer.first_name}} {{organizer.last_name}}</strong>
-            <div>{{organizer.affiliation}}</div>
+          <img src="{{organizer[1].avatar | relative_url}}" />
+          <div>
+            <strong class="name"
+              >{{organizer[1].first_name}} {{organizer[1].last_name}}</strong
+            >
+            <div>{{organizer[1].affiliation}}</div>
           </div>
         </div>
 
         <div class="text">
           <div class="desc">
-            {% if organizer.url %}
-            <a href="{{organizer.url}}"
+            {% if organizer[1].url %}
+            <a href="{{organizer[1].url}}"
               ><i class="icon fa-solid fa-globe"></i
             ></a>
-            {% endif %} {% if organizer.twitter %}
-            <a href="{{organizer.twitter}}">
+            {% endif %} {% if organizer[1].twitter %}
+            <a href="{{organizer[1].twitter}}">
               <i class="icon fa-brands fa-twitter"></i
             ></a>
-            {% endif %} {{organizer.desc | markdownify}}
+            {% endif %} {{organizer[1].desc | markdownify}}
           </div>
         </div>
       </div>

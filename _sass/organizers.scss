@@ -9,7 +9,7 @@
   text-align: left;
   background-color: transparent;
   h2 {
-    color: $primary-grey;
+    color: $grey500;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 0.25em;
@@ -51,18 +51,19 @@
           object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
           object-position: center;
         }
+        .name {
+          padding: 10px 0;
+          color: $primary-color;
+        }
       }
 
       &:hover {
         .text {
-          background: rgba($grey100, 0.8);
+          background: rgba($grey50, 0.9);
           min-height: 100%;
-          .name {
-            padding: 10px 0;
-          }
+
           .desc {
             display: block;
-
             //height: auto;
           }
         }
@@ -103,7 +104,7 @@
           strong {
             font-family: $code-font;
             font-style: italic;
-            color: $wine-red;
+            color: $primary-color;
             margin-right: 5px;
           }
         }

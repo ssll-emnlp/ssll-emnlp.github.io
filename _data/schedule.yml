@@ -1,92 +1,99 @@
-- schedules:
+- session: ""
+  schedules:
     - topic: welcome
       start_time: "08:50"
       end_time: "09:00"
       type: remark
+      moderator: Diyi Yang
+
 - session: Research Stories
   schedules:
-    - speaker: speaker 1
-      type: talk
-      speaker_key: speaker1
-      topic: dataset
+    - type: talk
+      speaker_key: TODO
+      topic: (topic TBD)
       start_time: "09:00"
       end_time: "09:20"
-    - speaker: speaker 2
-      type: talk
-      speaker_key: speaker2
-      topic: big model
+    - type: talk
+      speaker_key: mpeters
+      topic: (topic TBD)
       start_time: "09:20"
       end_time: "09:40"
-    - speaker: speaker 3
-      type: talk
-      speaker_key: speaker3
-      topic: creative NLP research
+    - type: talk
+      speaker_key: estrubell
+      topic: (topic TBD)
       start_time: "09:40"
       end_time: "10:00"
     - topic: Coffee Break
       type: break
       start_time: "10:00"
       end_time: "10:30"
-    - topic: "Panel with the 3 Speakers (Moderator: )"
+
+    - topic: "Panel on Research Stories"
+      type: panel
+      moderator: Sherry Wu
       start_time: "10:30"
       end_time: "11:00"
+
 - session: "Growth & Connection"
   schedules:
-    - speaker: speaker 1
-      type: talk
-      speaker_key: speaker1
-      topic: student
+    - type: talk
+      speaker_key: zhijiangj
+      topic: (topic TBD)
       start_time: "11:00"
       end_time: "11:20"
-    - speaker: speaker 2
-      type: talk
-      speaker_key: speaker2
-      topic: less represented work
+    - type: talk
+      speaker_key: tsolorio
+      topic: (topic TBD)
       start_time: "11:20"
       end_time: "11:40"
-    - speaker: speaker 3
-      type: talk
-      speaker_key: speaker3
-      topic: advertisement
+    - type: talk
+      speaker_key: dbamman
+      topic: (topic TBD)
       start_time: "11:40"
       end_time: "12:00"
     - topic: "Networking/Mentoring (Lunch Provided)"
       type: break
       start_time: "12:00"
       end_time: "13:30"
-    - topic: "Panel with the 3 Speakers (Moderator: )"
+    - topic: "Panel on Growth & Connection"
       start_time: "13:30"
       end_time: "14:00"
+      type: panel
+      moderator: Tuhin Chakrabarty
+
 - session: Career Trajectory
+  desc: "Career Trajectory"
   schedules:
-    - speaker: speaker 1
-      type: talk
-      speaker_key: speaker1
-      topic: industry vs. academia
+    - type: talk
+      speaker_key: craffel
+      topic: (topic TBD)
       start_time: "14:00"
       end_time: "14:20"
-    - speaker: speaker 2
-      type: talk
-      speaker_key: speaker2
-      topic: startup
+    - type: talk
+      speaker_key: mfaruqui
+      topic: (topic TBD)
       start_time: "14:20"
       end_time: "14:40"
     - speaker: speaker 3
       type: talk
-      speaker_key: speaker3
-      topic: interdisciplinary field
+      speaker_key: djurgen
+      topic: (topic TBD)
       start_time: "14:40"
       end_time: "15:00"
     - topic: Coffee Break
       type: break
       start_time: "15:00"
       end_time: "15:30"
-    - topic: "Panel with the 3 Speakers (Moderator: )"
+    - topic: "Panel on Career Trajectory"
+      moderator: Yuval Pinter
+      type: panel
       start_time: "15:30"
       end_time: "16:00"
+
 - session: ""
   schedules:
     - topic: Closing remark
       start_time: "16:00"
       end_time: "16:30"
       type: remark
+      moderator: Yuval Pinter

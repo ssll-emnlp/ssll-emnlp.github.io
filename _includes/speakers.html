@@ -3,13 +3,24 @@
   <div class="speakers pure-g">
     {% for speaker in site.data.speakers %}
     <div id="speaker-{{speaker[0]}}" class="pure-u-1 speaker">
-      <div><img src="{{speaker[1].avatar}}" /></div>
-      <div class="info">
-        <div>
-          <span class="highlight">{{speaker[1].speaker_name}}</span>
-          ({{speaker[1].affiliation}})
+      <div class="pure-g">
+        <div class="pure-u-sm-1-8 avatar">
+          <img src="{{speaker[1].avatar}}" />
         </div>
-        <p>{{speaker[1].desc}}</p>
+        <div class="pure-u-sm-7-8">
+          <span class="highlight">
+            {% if speaker[1].url %}
+            <a href="{{speaker[1].url}}">{{speaker[1].speaker_name}}</a>
+            {% else %} {{speaker[1].speaker_name}} {% endif %}
+          </span>
+          {% if speaker[1].twitter %}
+          <a href="{{speaker[1].twitter}}">
+            <i class="icon fa-brands fa-twitter"></i>
+          </a>
+          {% endif %}
+          <small>{{speaker[1].affiliation}}</small>
+          <p>{{speaker[1].desc}}</p>
+        </div>
       </div>
     </div>
     {% endfor %}

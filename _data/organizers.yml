@@ -1,18 +1,23 @@
-- first_name: Diyi
+diyiy:
+  first_name: Diyi
   last_name: Yang
   affiliation: Stanford University
   url: https://cs.stanford.edu/~diyiy/
   twitter: https://twitter.com/Diyi_Yang
   avatar: assets/people/diyi.png
   desc: Diyi Yang is an assistant Prof. in the CSE department at Stanford. Her research interests include Computational Social Science and Natural Language Processing.
-- first_name: Pradeep
+
+pdasigi:
+  first_name: Pradeep
   affiliation: Allen Institute for AI
   last_name: Dasigi
   url: https://pdasigi.github.io/
   twitter: https://twitter.com/pdasigi
   avatar: assets/people/pradeep.png
   desc: Pradeep Dasigi is a Research Scientist at the Allen Institute for AI. He works on Natural Language Processing, and his research interests include Question Answering, Semantic Parsing, and efficient collection of labeled data for various NLP tasks.
-- first_name: Sherry Tongshuang
+
+sherryw:
+  first_name: Sherry Tongshuang
   affiliation: Carnegie Mellon University
   last_name: Wu
   avatar: assets/people/sherry.png
@@ -20,7 +25,8 @@
   url: https://cs.cmu.edu/~sherryw
   twitter: https://twitter.com/tongshuangwu
 
-- first_name: Tuhin
+tchakrabarty:
+  first_name: Tuhin
   last_name: Chakrabarty
   affiliation: Columbia University
   desc: Tuhin Chakrabarty is a  Ph.D. student in CS at Columbia University. His research is at the intersection of NLP and ML, primarily focusing on creative language understanding and generation and analyzing the role of structured of common sense in such cases.
@@ -28,7 +34,8 @@
   twitter: https://twitter.com/TuhinChakr
   avatar: assets/people/tuhin.png
 
-- first_name: Yuval
+yuvalpi:
+  first_name: Yuval
   last_name: Pinter
   affiliation: Ben-Gurion University
   desc: Yuval Pinter is a Senior Lecturer in the Department of Computer Science at Ben-Gurion University of the Negev, focusing on NLP as PI of the MeLeL lab. Yuval got his PhD at the Georgia Tech of Interactive Computing as a Bloomberg Data Science Fellow, working on representations at the word level and below.
@@ -36,7 +43,8 @@
   twitter: https://twitter.com/yuvalpi
   avatar: assets/people/yuval.png
 
-- first_name: Mike Shou
+mikes:
+  first_name: Mike Shou
   last_name: Zheng
   affiliation: National University of Singapore
   desc: "Mike Zheng Shou is currently an assistant Professor at National Univ. of Singapore, and also a Research Scientist at Facebook AI. His research focuses on video understanding and creation. He obtained his Ph.D. degree at Columbia Univ. in 2019, working with Prof. Shih-Fu Chang."
