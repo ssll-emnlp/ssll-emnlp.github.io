@@ -1,3 +1,10 @@
+bwebber:
+  speaker_name: Bonnie Webber
+  affiliation: University of Edinburgh
+  url: https://homepages.inf.ed.ac.uk/bonnie/
+  avatar: assets/people/bwebber.png
+  desc: "Bonnie Webber is a professor at the University of Edinburgh. She works on discourse phenomena, collaborating on the development and use of the Penn Discourse TreeBank. She is also interested in discourse in the context of machine translation and the stability of language technology tools across changes in genre."
+
 mpeters:
   speaker_name: Matthew Peters
   affiliation: Allen Institute for Artificial Intelligence
