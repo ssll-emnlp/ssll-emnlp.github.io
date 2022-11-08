@@ -6,10 +6,10 @@
       type: remark
       moderator: Diyi Yang
 
-- session: Research Stories
+- session: Research Stories (tentative)
   schedules:
     - type: talk
-      speaker_key: bwebber
+      speaker_key: tsolorio
       topic: (topic TBD)
       start_time: "09:00"
       end_time: "09:20"
@@ -19,7 +19,7 @@
       start_time: "09:20"
       end_time: "09:40"
     - type: talk
-      speaker_key: estrubell
+      speaker_key: dbamman
       topic: (topic TBD)
       start_time: "09:40"
       end_time: "10:00"
@@ -34,7 +34,7 @@
       start_time: "10:30"
       end_time: "11:00"
 
-- session: "Growth & Connection"
+- session: "Growth & Connection (tentative)"
   schedules:
     - type: talk
       speaker_key: zhijiangj
@@ -42,16 +42,16 @@
       start_time: "11:00"
       end_time: "11:20"
     - type: talk
-      speaker_key: tsolorio
+      speaker_key: mfaruqui
       topic: (topic TBD)
       start_time: "11:20"
       end_time: "11:40"
     - type: talk
-      speaker_key: dbamman
+      speaker_key: bwebber
       topic: (topic TBD)
       start_time: "11:40"
       end_time: "12:00"
-    - topic: "Networking/Mentoring (Lunch Provided)"
+    - topic: "Networking / Mentoring"
       type: break
       start_time: "12:00"
       end_time: "13:30"
@@ -61,8 +61,7 @@
       type: panel
       moderator: Tuhin Chakrabarty
 
-- session: Career Trajectory
-  desc: "Career Trajectory"
+- session: Research & Career (tentative)
   schedules:
     - type: talk
       speaker_key: craffel
@@ -70,7 +69,7 @@
       start_time: "14:00"
       end_time: "14:20"
     - type: talk
-      speaker_key: mfaruqui
+      speaker_key: estrubell
       topic: (topic TBD)
       start_time: "14:20"
       end_time: "14:40"
@@ -84,7 +83,7 @@
       type: break
       start_time: "15:00"
       end_time: "15:30"
-    - topic: "Panel on Career Trajectory"
+    - topic: "Panel on Research & Career"
       moderator: Yuval Pinter
       type: panel
       start_time: "15:30"
