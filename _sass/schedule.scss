@@ -2,6 +2,22 @@
   .schedule {
     margin-bottom: 15px;
     padding-left: 30px;
+    &.abstract {
+      margin-top: -5px;
+      font-size: small;
+      padding-left: 80px;
+      color: $grey700;
+      background-color: $grey50;
+      p {
+        margin: 0;
+      }
+    }
+
+    .abstract {
+      margin-bottom: -15px;
+      font-size: small;
+      color: $grey700;
+    }
 
     div {
       display: inline-block;

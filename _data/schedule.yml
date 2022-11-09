@@ -38,7 +38,8 @@
   schedules:
     - type: talk
       speaker_key: zhijiangj
-      topic: (topic TBD)
+      topic: My Journey in NLP
+      abstract: In this talk, Zhijing Jin (she/her) will share about her PhD journey in NLP with stories and lessons learned. Her talk will be friendly to audiences of all backgrounds, from beginners in NLP to senior researchers. She will address common career path questions such as “how to get started in NLP?”, “How to do well in a PhD”, and “What is a meaningful career”. The talk will cover her personal stories, research pursuit (NLP for Social Good and CausalNLP), and community contributions (ACL Year-Round Mentorship, etc). [The talk slides are available here](https://docs.google.com/presentation/d/1-njz5uwBhi5j1iqkDheyCJ07mtsyMUBTqZFtPDQpSHs/).
       start_time: "11:00"
       end_time: "11:20"
     - type: talk
@@ -68,7 +69,8 @@
   schedules:
     - type: talk
       speaker_key: craffel
-      topic: (topic TBD)
+      topic: Weird Things About Professorship
+      abstract: In this talk, I'll reflect on my unusual industry-to-academia path and various unexpectedly difficult things about professorship.
       start_time: "15:30"
       end_time: "15:50"
     - type: talk

@@ -18,7 +18,7 @@
         </div>
         <div class="desc">
           {% if schedule.topic %}
-          <span class="topic">{{schedule.topic}}</span>
+          <span class="topic">{{schedule.topic}}.</span>
           {% endif %} {% if schedule.speaker_key %}
           <span class="speaker"
             >Speaker: {% if site.data.speakers[schedule.speaker_key] %} {%
@@ -34,7 +34,11 @@
           {% endif %}
         </div>
       </div>
-      {% endfor %}
+      {% if schedule.abstract %}
+      <div class="pure-u-1 schedule abstract">
+        {{schedule.abstract | markdownify}}
+      </div>
+      {% endif %} {% endfor %}
     </div>
     {% endfor %}
   </div>
