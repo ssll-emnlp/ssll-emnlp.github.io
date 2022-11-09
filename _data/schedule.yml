@@ -51,48 +51,47 @@
       topic: (topic TBD)
       start_time: "11:40"
       end_time: "12:00"
-    - topic: "Networking / Mentoring"
-      type: break
-      start_time: "12:00"
-      end_time: "13:30"
     - topic: "Panel on Growth & Connection"
-      start_time: "13:30"
-      end_time: "14:00"
+      start_time: "12:00"
+      end_time: "12:30"
       type: panel
       moderator: Tuhin Chakrabarty
+
+- session: ""
+  schedules:
+    - topic: "Networking / Mentoring"
+      type: break
+      start_time: "12:30"
+      end_time: "14:30"
 
 - session: Research & Career (tentative)
   schedules:
     - type: talk
       speaker_key: craffel
       topic: (topic TBD)
-      start_time: "14:00"
-      end_time: "14:20"
+      start_time: "15:30"
+      end_time: "15:50"
     - type: talk
       speaker_key: estrubell
       topic: (topic TBD)
-      start_time: "14:20"
-      end_time: "14:40"
+      start_time: "15:50"
+      end_time: "16:10"
     - speaker: speaker 3
       type: talk
       speaker_key: djurgen
       topic: (topic TBD)
-      start_time: "14:40"
-      end_time: "15:00"
-    - topic: Coffee Break
-      type: break
-      start_time: "15:00"
-      end_time: "15:30"
+      start_time: "16:10"
+      end_time: "16:30"
     - topic: "Panel on Research & Career"
       moderator: Yuval Pinter
       type: panel
-      start_time: "15:30"
-      end_time: "16:00"
+      start_time: "16:30"
+      end_time: "17:00"
 
 - session: ""
   schedules:
     - topic: Closing remark
-      start_time: "16:00"
-      end_time: "16:30"
+      start_time: "17:00"
+      end_time: "17:05"
       type: remark
       moderator: Yuval Pinter
