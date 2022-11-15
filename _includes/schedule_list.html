@@ -9,7 +9,7 @@
     <hr class="solid" />
     <div class="pure-u-1 session">
       {%if session.session != "" %}
-      <div class="header">Stories about {{session.session}}</div>
+      <div class="header">{{session.session}}</div>
       {% endif %} {% for schedule in session.schedules %}
       <div class="pure-u-1 schedule type-{{schedule.type}}">
         <div class="time">
