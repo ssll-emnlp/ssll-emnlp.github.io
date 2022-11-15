@@ -2,6 +2,8 @@
   .schedule {
     margin-bottom: 15px;
     padding-left: 30px;
+    font-size: 1rem;
+    display: flex;
     &.abstract {
       margin-top: -5px;
       font-size: small;
@@ -20,7 +22,7 @@
     }
 
     div {
-      display: inline-block;
+      display: inline;
       vertical-align: middle;
       margin-right: 15px;
       //font-weight: bolder;
@@ -29,6 +31,10 @@
     .time {
       font-family: $code-font;
       color: $grey700;
+      width: 110px;
+      flex-grow: 0;
+      flex-shrink: 0;
+      font-size: small;
     }
     .topic {
       font-weight: bolder;

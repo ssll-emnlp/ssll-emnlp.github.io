@@ -1,8 +1,8 @@
 <div class="pure-u-1 content">
   <h2>Schedule</h2>
   <p>
-    The time is in {{site.data.about.location}} timezone:
-    {{site.data.about.timezone}}
+    The workshop will be hosted on {{site.data.about.date}}, in
+    {{site.data.about.location}}. Timezone: {{site.data.about.timezone}}
   </p>
   <div class="schedules pure-g">
     {% for session in site.data.schedule %}
@@ -21,8 +21,8 @@
           <span class="topic">{{schedule.topic}}.</span>
           {% endif %} {% if schedule.speaker_key %}
           <span class="speaker"
-            >Speaker: {% if site.data.speakers[schedule.speaker_key] %} {%
-            assign speaker = site.data.speakers[schedule.speaker_key] %}
+            >By {% if site.data.speakers[schedule.speaker_key] %} {% assign
+            speaker = site.data.speakers[schedule.speaker_key] %}
 
             <a href="#speaker-{{schedule.speaker_key}}">
               {{speaker.speaker_name}}
