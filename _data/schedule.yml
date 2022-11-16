@@ -46,7 +46,8 @@
       end_time: "11:20"
     - type: talk
       speaker_key: mfaruqui
-      topic: (topic TBD)
+      topic: "Career and Research Opportunities in Product: My experience working on the Google Assistant"
+      abstract: "In this talk I'll cover my experience of identifying and developing research opportunities in a product focused environment where often the top priority is user satisfaction. How do we identify research problems? How do we align them to our goal of improving user satisfaction? How can we build a career while working on products? These are some of the topics that we'll touch upon in this talk."
       start_time: "11:20"
       end_time: "11:40"
     - type: talk
