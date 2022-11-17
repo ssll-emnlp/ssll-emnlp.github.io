@@ -31,13 +31,13 @@
       start_time: "10:00"
       end_time: "10:30"
 
-    - topic: "Panel on Research Stories"
+    - topic: "Panel on Stories behind Cool Research"
       type: panel
       moderator: Sherry Wu
       start_time: "10:30"
       end_time: "11:00"
 
-- session: Personal Growth & Life as a Researcher
+- session: Growth & Life as a Researcher
   schedules:
     - type: talk
       speaker_key: zhijiangj
@@ -57,7 +57,7 @@
       abstract: "Few of us really like writing papers. And few of us are really very good at it. To this end, ACL Student Research Workshops now commonly run a _Pre-submission Mentorship Program_ that gives students the chance to receive feedback on their papers before submitting them for review. The feedback comes from experienced members of the field, in the form of suggestions for improve the paper's overall organization and writing.  It is a program that is of clear benefit to participant. But what if such a program isn't on offer?  What then? Early in my career, I learned to pretend that a paper I was working on had been written by someone else -- someone who was too caught up in the paper to see its shortcomings. This _let's pretend_ of self-editing will be my contribution to Stories Shared and Lessons Learned."
       start_time: "11:40"
       end_time: "12:00"
-    - topic: "Panel on Growth & Connection"
+    - topic: "Panel on Growth & Life as a Researcher"
       start_time: "12:00"
       end_time: "12:30"
       type: panel
@@ -91,7 +91,7 @@
       abstract: "How does someone in NLP start doing interdisciplinary research? Venturing out from NLP to new lands can be daunting: people speak new languages, are interested in new questions, and get confused why we keep talking about Sesame Street characters. I'll share my story of going off the NLP map, switching from lexical semantics to doing research primarily in interdisciplinary settings like computational social science. Join me for tales from my journey out to these foreign locales and how I have navigated some of the challenges like finding fellow adventurers, summiting the mountains of papers, avoiding the plains of isolation, and finding treasured research problems relevant to both fields."
       start_time: "16:10"
       end_time: "16:30"
-    - topic: "Panel on Research & Career"
+    - topic: "Panel on Going beyond the Comfort Zone"
       moderator: Yuval Pinter
       type: panel
       start_time: "16:30"
