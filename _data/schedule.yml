@@ -6,11 +6,12 @@
       type: remark
       moderator: Diyi Yang
 
-- session: Stories behind Cool Work
+- session: Stories behind Cool Research
   schedules:
     - type: talk
-      speaker_key: tsolorio
-      topic: (topic TBD)
+      speaker_key: mfaruqui
+      topic: "Career and Research Opportunities in Product: My experience working on the Google Assistant"
+      abstract: "In this talk I'll cover my experience of identifying and developing research opportunities in a product focused environment where often the top priority is user satisfaction. How do we identify research problems? How do we align them to our goal of improving user satisfaction? How can we build a career while working on products? These are some of the topics that we'll touch upon in this talk."
       start_time: "09:00"
       end_time: "09:20"
     - type: talk
@@ -36,7 +37,7 @@
       start_time: "10:30"
       end_time: "11:00"
 
-- session: Life as a Researcher
+- session: Personal Growth & Life as a Researcher
   schedules:
     - type: talk
       speaker_key: zhijiangj
@@ -45,9 +46,9 @@
       start_time: "11:00"
       end_time: "11:20"
     - type: talk
-      speaker_key: mfaruqui
-      topic: "Career and Research Opportunities in Product: My experience working on the Google Assistant"
-      abstract: "In this talk I'll cover my experience of identifying and developing research opportunities in a product focused environment where often the top priority is user satisfaction. How do we identify research problems? How do we align them to our goal of improving user satisfaction? How can we build a career while working on products? These are some of the topics that we'll touch upon in this talk."
+      speaker_key: tsolorio
+      topic: Serendipity tales of a Mexican NLP Gal
+      abstract: Everyone has challenges to overcome, some have already experienced what would be the most difficult obstacles life had in store for them, while for others there is still a hard road ahead. My life is no exception, in the pursuit of my career goals I’ve faced some obstacles that I’ll share in this talk. But I want to focus on the little happy coincidences in my professional life that have had a significant impact on myself, at the professional and at the personal level. I will also share how some of my personal life has influenced my research curiosity and motivated my research agenda through the years. Lastly, if I have time, I’ll share my perspective on the always controversial notion of “life-work” balance.
       start_time: "11:20"
       end_time: "11:40"
     - type: talk
