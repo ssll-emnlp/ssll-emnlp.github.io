@@ -9,7 +9,9 @@
         {{site.data.about.conference}}</span
       >
       <br />
-      {{site.data.about.date}}, in {{site.data.about.location}}
+      {{site.data.about.date}}, in {{site.data.about.location}} {%if
+      site.data.about.room %}, <span>{{site.data.about.room}}</span>
+      {% endif %}
       <br />
       {% if site.data.about.contacts.email %}
       <span class="block">
