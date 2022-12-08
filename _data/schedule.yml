@@ -26,14 +26,14 @@
       abstract: Much work at the intersection of NLP and computational social science/cultural analytics focuses on developing algorithmic measuring devices that can be seen as counting some phenomenon in text in order to tell us something about the world in which that text was created.  The instrument validity of those devices in critical; and while advances in large language modeling and domain adaptation have enabled models trained on one domain to generalize (to some extent) to another, what is often required is a model optimized for that domain being studied, and the specific phenomena that are being measured within it.  In this talk, I'll discuss my own group's work creating annotated datasets for the study of culture, including both contemporary novels and movies, highlighting a number of the practical, legal and conceptual challenges that arise.
       start_time: "09:40"
       end_time: "10:00"
-    - topic: Coffee Break
-      type: break
-      start_time: "10:00"
-      end_time: "10:30"
-
     - topic: "Panel on Stories behind Cool Research"
       type: panel
       moderator: Sherry Wu
+      start_time: "10:00"
+      end_time: "10:30"
+
+    - topic: Coffee Break
+      type: break
       start_time: "10:30"
       end_time: "11:00"
 
